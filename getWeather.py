@@ -12,7 +12,7 @@ def fahrenheit(k):
     f = (((k-273.15)*9)/5)+32
     return round(f, 0)
 url='http://api.openweathermap.org/data/2.5/weather?'
-api_key = 'enter api key here
+api_key = 'enter_api_key_here'
 
 class Weather(App):
     def build(self):
